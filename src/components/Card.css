@@ -1,0 +1,6 @@
+.Card{
+    min-width: 250px;
+    min-height: 250px;
+    background-color: black;
+    width: 20vw;
+}
