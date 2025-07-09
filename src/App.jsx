@@ -11,7 +11,7 @@ function App() {
     <div className='Main-Container'>
       <h1>Let's Catch Pokemon</h1>
 
-      <div><p>input Field</p></div>
+      <input type='text' className='Search-Field' placeholder='Enter Pokemon Name'></input>
 
       <div className='Cards-Container'>
       <Card></Card>

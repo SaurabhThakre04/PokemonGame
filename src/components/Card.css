@@ -1,6 +1,34 @@
 .Card{
     min-width: 250px;
     min-height: 250px;
-    background-color: black;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     width: 20vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: background 3s ease-in-out;
+}
+
+.Card:hover{
+    background: linear-gradient(135deg, #2e4a52, #3d5b6b, #4c6e7e);
+}
+.Img-Container {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 5%;
+}
+
+.Img-Container img {
+    height: 70%;
+}
+
+.Pokemon-Info{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
